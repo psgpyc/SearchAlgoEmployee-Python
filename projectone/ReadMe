@@ -1,0 +1,56 @@
+Read Me :
+
+main.py is the gateway to the whole program. It runs with the following [commands].
+
+If you are interested in interactive shell , try running
+interactiveshell.py.
+
+
+
+[main.py COMMANDS]:
+
+    init_table                   =             "-t <table name>"	
+
+    insert To database           =             "insert -i"
+
+    searching in the database    =             "-r -p <Search Parameter> -v <value to be searched>"
+   
+    delete items from database   =             "-d <value(id)>"
+   
+    update items from database   =             "-u -p <Update Parameter> -on <old value> -nn <new value>"
+
+    searching                    =             "-se <value for search(phone number)>"     
+
+    Sorting                      =             "-sort -p <parameter> <value>"	
+
+
+	NOTE:[sort and then search are not done through id.]
+
+                                               
+Description of parameters used:
+
+Search/update parameters : (Colums of the table of the database usersdb)
+	name
+	email
+	phone
+	bio
+	dob
+	gender
+	address
+	long
+	lat
+	SocialMedia
+
+
+***************TABLE NAME = userdetails  ****************************
+
+
+******* PLEASE RUN init_table = "-t <table name>" BEFORE GOING THROUGH REST OF THE PROGRAM. ********
+
+
+
+
+
+
+
+
